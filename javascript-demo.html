@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <!-- The title of our page which will be displayed in the browser tab -->
+    <title>Frontend Intro</title>
+
+    <!-- This element will include all the css styles we've written in "styles.css" into this page so we dont have to write them here -->
+    <!-- This is good when we have a lot of styles so as to keep this file smaller and easier to read -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+
+    <!-- The main heading for the content of our page -->
+    <h1>Hello SOON_</h1>
+
+    <!-- This button opens the modal by running the "openModal" function whenever the user clicks the button -->
+    <!-- The "onclick" attribute allows us to specify a function to run when the user clicks the button -->
+    <button type="button" onclick="openModal()">Open</button>
+
+    <!-- Our custom built modal element -->
+    <div class="modal">
+      <!-- The inner modal content a.k.a the bit with the white background -->
+      <div class="modal-content">
+        <!-- Some content -->
+        <h2>Hello from modal</h2>
+        <p>This is the inside of our modal</p>
+
+        <!-- This button closes the modal by running the "closeModal" function whenever we click the button -->
+        <button type="button" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+
+    <!-- This element will include all the javascript in "app.js" in this page so we don't have to write them here -->
+    <!-- This is good when we have a lot of javascript so keep this file smaller and easier to read -->
+    <script src="./app.js"></script>
+
+  </body>
+</html>
